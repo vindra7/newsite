@@ -1,0 +1,97 @@
+# robots.txt — awningsandsignsunlimited.com
+# Serve at https://www.awningsandsignsunlimited.com/robots.txt
+# Last updated: 2026-07-26
+
+# ── Conventional search crawlers ──
+User-agent: *
+Allow: /
+Disallow: /hibu-video-splash
+Disallow: /call-or-text-pop
+Disallow: /cat-landing
+Disallow: /core-page
+
+# ── OpenAI / ChatGPT ──
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+# ── Google: AI Overviews, AI Mode and Gemini grounding ──
+# Google-Extended is the real control token for Gemini + AI Overviews.
+# Googlebot must stay allowed or the page cannot appear in AI Overviews at all.
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: GoogleOther
+Allow: /
+
+# Requested aliases — not official tokens, harmless if unrecognised
+User-agent: GoogleAIOverviewBot
+Allow: /
+
+User-agent: GoogleAISearchBot
+Allow: /
+
+# ── Anthropic / Claude ──
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+# ── xAI / Grok ──
+User-agent: xAI-Bot
+Allow: /
+
+User-agent: GrokBot
+Allow: /
+
+# ── Perplexity ──
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+# ── Other answer engines ──
+User-agent: Bingbot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: meta-externalagent
+Allow: /
+
+User-agent: DuckAssistBot
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+Sitemap: https://www.awningsandsignsunlimited.com/sitemap.xml
